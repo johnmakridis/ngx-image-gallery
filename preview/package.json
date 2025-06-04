@@ -1,6 +1,6 @@
 {
-  "name": "preview",
-  "version": "0.0.0",
+  "name": "@johnmakridis/ngx-image-gallery-preview",
+  "version": "10.0.0",
   "scripts": {
     "start": "ng serve",
     "build": "ng build --prod"
