@@ -1,5 +1,0 @@
-/**
- * Generated bundle index. Do not edit.
- */
-export * from './public-api';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiam9obm1ha3JpZGlzLW5neC1pbWFnZS1nYWxsZXJ5LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL3Byb2plY3RzL25neC1pbWFnZS1nYWxsZXJ5L3NyYy9qb2hubWFrcmlkaXMtbmd4LWltYWdlLWdhbGxlcnkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLGNBQWMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogR2VuZXJhdGVkIGJ1bmRsZSBpbmRleC4gRG8gbm90IGVkaXQuXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9wdWJsaWMtYXBpJztcbiJdfQ==

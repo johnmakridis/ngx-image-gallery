@@ -49,7 +49,8 @@ const DEFAULT_CONF: GALLERY_CONF = {
 @Component({
     selector: 'ngx-image-gallery',
     templateUrl: './ngx-image-gallery.component.html',
-    styleUrls: ['./ngx-image-gallery.component.scss']
+    styleUrls: ['./ngx-image-gallery.component.scss'],
+    standalone: false
 })
 export class NgxImageGalleryComponent implements OnInit, OnChanges {
 
