@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('tslib'), require('@angular/core'), require('@angular/common'), require('lodash'), require('@angular/platform-browser')) :
-    typeof define === 'function' && define.amd ? define('ngx-image-gallery', ['exports', 'tslib', '@angular/core', '@angular/common', 'lodash', '@angular/platform-browser'], factory) :
-    (global = global || self, factory(global['ngx-image-gallery'] = {}, global.tslib, global.ng.core, global.ng.common, global.lodash, global.ng.platformBrowser));
+    typeof define === 'function' && define.amd ? define('@johnmakridis/ngx-image-gallery', ['exports', 'tslib', '@angular/core', '@angular/common', 'lodash', '@angular/platform-browser'], factory) :
+    (global = global || self, factory((global.johnmakridis = global.johnmakridis || {}, global.johnmakridis['ngx-image-gallery'] = {}), global.tslib, global.ng.core, global.ng.common, global.lodash, global.ng.platformBrowser));
 }(this, (function (exports, tslib, core, common, lodash, platformBrowser) { 'use strict';
 
     // key codes to react
@@ -469,4 +469,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=ngx-image-gallery.umd.js.map
+//# sourceMappingURL=johnmakridis-ngx-image-gallery.umd.js.map

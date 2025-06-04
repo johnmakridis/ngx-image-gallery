@@ -443,4 +443,4 @@ NgxImageGalleryModule = __decorate([
  */
 
 export { ClickOutsideDirective, MouseWheelDirective, NgxImageGalleryComponent, NgxImageGalleryModule };
-//# sourceMappingURL=ngx-image-gallery.js.map
+//# sourceMappingURL=johnmakridis-ngx-image-gallery.js.map
