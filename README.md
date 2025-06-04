@@ -8,12 +8,12 @@ Probably the best Angular 4+ modal and inline image gallery. Angular upgrade for
 
 [![npm](https://img.shields.io/npm/dt/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
 [![npm](https://img.shields.io/npm/v/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![David](https://img.shields.io/david/thatisuday/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![preview](https://img.shields.io/badge/preview-click_here-green.svg?style=flat-square)](https://thatisuday.github.io/ngx-image-gallery)
+[![David](https://img.shields.io/david/johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
+[![preview](https://img.shields.io/badge/preview-click_here-green.svg?style=flat-square)](https://johnmakridis.github.io/ngx-image-gallery)
 
 ## Prerequisites
 
-- Hammerjs (required for swipe) 
+- Hammerjs (required for swipe)
 ```
 npm i -S hammerjs lodash
 ```
@@ -41,12 +41,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Install
 ```bash
-npm install --save @web-aid-kit/ngx-image-gallery
+npm install --save @johnmakridis/ngx-image-gallery
 ```
 
 ## Import
 ```typescript
-import { NgxImageGalleryModule } from '@web-aid-kit/ngx-image-gallery';
+import { NgxImageGalleryModule } from '@johnmakridis/ngx-image-gallery';
 
 @NgModule({
   ...,
@@ -63,8 +63,8 @@ export class AppModule { }
 ```html
 // app.component.html
 
-<ngx-image-gallery 
-[images]="images" 
+<ngx-image-gallery
+[images]="images"
 [conf]="conf"
 (onOpen)="galleryOpened($event)"
 (onClose)="galleryClosed()"
@@ -77,7 +77,7 @@ export class AppModule { }
 ## Configure
 ```ts
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgxImageGalleryComponent, GALLERY_IMAGE, GALLERY_CONF } from '@web-aid-kit/ngx-image-gallery';
+import { NgxImageGalleryComponent, GALLERY_IMAGE, GALLERY_CONF } from '@johnmakridis/ngx-image-gallery';
 
 @Component({
   selector: 'app-root',
@@ -87,25 +87,25 @@ import { NgxImageGalleryComponent, GALLERY_IMAGE, GALLERY_CONF } from '@web-aid-
 export class AppComponent implements OnInit {
   // get reference to gallery component
   @ViewChild(NgxImageGalleryComponent) ngxImageGallery: NgxImageGalleryComponent;
-  
+
   // gallery configuration
   conf: GALLERY_CONF = {
     imageOffset: '0px',
     showDeleteControl: false,
     showImageTitle: false,
   };
-	
+
   // gallery images
   images: GALLERY_IMAGE[] = [
     {
-      url: "https://images.pexels.com/photos/669013/pexels-photo-669013.jpeg?w=1260", 
-      altText: 'woman-in-black-blazer-holding-blue-cup', 
+      url: "https://images.pexels.com/photos/669013/pexels-photo-669013.jpeg?w=1260",
+      altText: 'woman-in-black-blazer-holding-blue-cup',
       title: 'woman-in-black-blazer-holding-blue-cup',
       thumbnailUrl: "https://images.pexels.com/photos/669013/pexels-photo-669013.jpeg?w=60"
     },
     {
-      url: "https://images.pexels.com/photos/669006/pexels-photo-669006.jpeg?w=1260", 
-      altText: 'two-woman-standing-on-the-ground-and-staring-at-the-mountain', 
+      url: "https://images.pexels.com/photos/669006/pexels-photo-669006.jpeg?w=1260",
+      altText: 'two-woman-standing-on-the-ground-and-staring-at-the-mountain',
       extUrl: 'https://www.pexels.com/photo/two-woman-standing-on-the-ground-and-staring-at-the-mountain-669006/',
       thumbnailUrl: "https://images.pexels.com/photos/669006/pexels-photo-669006.jpeg?w=60"
     },
@@ -114,35 +114,35 @@ export class AppComponent implements OnInit {
   constructor(){}
 
   ngOnInit() {}
-	
+
   // METHODS
   // open gallery
   openGallery(index: number = 0) {
     this.ngxImageGallery.open(index);
   }
-	
+
   // close gallery
   closeGallery() {
     this.ngxImageGallery.close();
   }
-	
+
   // set new active(visible) image in gallery
   newImage(index: number = 0) {
     this.ngxImageGallery.setActiveImage(index);
   }
-	
+
   // next image in gallery
   nextImage(index: number = 0) {
     this.ngxImageGallery.next();
   }
-	
+
   // prev image in gallery
   prevImage(index: number = 0) {
     this.ngxImageGallery.prev();
   }
-	
+
   /**************************************************/
-	
+
   // EVENTS
   // callback on gallery opened
   galleryOpened(index) {
@@ -158,7 +158,7 @@ export class AppComponent implements OnInit {
   galleryImageClicked(index) {
     console.info('Gallery image clicked with index ', index);
   }
-  
+
   // callback on gallery image changed
   galleryImageChanged(index) {
     console.info('Gallery image changed to index ', index);
@@ -210,7 +210,7 @@ export interface GALLERY_IMAGE {
 You can make gallery **inline** like a carousel by setting `conf.inline` to `true` but make sure to change `conf.backdropColor` as well if you need white backdrop color. Also `width` and `height` of the gallery can be adjusted by manually applying css styles with `!important` flag on gallery element.
 
 # Dynamic Update
-You can update gallery images `images` and gallery configuration `conf` anytime you want even when gallery is opened but due to Angular's change detection restrictions you must assign these variable to new value instead of changing internal properties as mentioned below. 
+You can update gallery images `images` and gallery configuration `conf` anytime you want even when gallery is opened but due to Angular's change detection restrictions you must assign these variable to new value instead of changing internal properties as mentioned below.
 
 ```ts
 // change images

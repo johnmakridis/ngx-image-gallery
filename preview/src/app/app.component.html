@@ -1,5 +1,5 @@
 <h1>
-	<a href="https://github.com/thatisuday/ngx-image-gallery">ngx-image-gallery</a>
+	<a href="https://github.com/johnmakridis/ngx-image-gallery">ngx-image-gallery</a>
 </h1>
 
 <form class="ui form" (ngSubmit)="openGallery(f)" #f="ngForm">
@@ -14,7 +14,7 @@
 	<!-- imageOffset -->
 	<div class="field">
 		<label for="">conf.imageOffset (add gap between image and it's container)</label>
-		<select type="text" >
+		<select type="text">
 			<option *ngFor="let i of range(0,50)" [value]="i + 'px'">{{ i + 'px' }}</option>
 		</select>
 	</div>
@@ -154,12 +154,5 @@
 
 
 <!-- Gallery component -->
-<ngx-image-gallery 
-[images]="images" 
-[conf]="conf"
-(onOpen)="galleryOpened($event)"
-(onClose)="galleryClosed()"
-(onImageChange)="galleryImageChanged($event)"
-(onImageClicked)="galleryImageClicked($event)"
-(onDelete)="deleteImage($event)"
-></ngx-image-gallery>
+<ngx-image-gallery [images]="images" [conf]="conf" (onOpen)="galleryOpened($event)" (onClose)="galleryClosed()" (onImageChange)="galleryImageChanged($event)"
+	(onImageClicked)="galleryImageClicked($event)" (onDelete)="deleteImage($event)"></ngx-image-gallery>
