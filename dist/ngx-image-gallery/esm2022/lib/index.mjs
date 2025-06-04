@@ -9,15 +9,15 @@ export * from './directives/click-outside.directive';
 export * from './directives/mousewheel.directive';
 export * from './ngx-image-gallery.conf';
 export class NgxImageGalleryModule {
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.12", ngImport: i0, type: NgxImageGalleryModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
-    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "17.3.12", ngImport: i0, type: NgxImageGalleryModule, declarations: [NgxImageGalleryComponent,
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "18.2.13", ngImport: i0, type: NgxImageGalleryModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "18.2.13", ngImport: i0, type: NgxImageGalleryModule, declarations: [NgxImageGalleryComponent,
             MouseWheelDirective,
             ClickOutsideDirective], imports: [CommonModule], exports: [NgxImageGalleryComponent,
             MouseWheelDirective,
             ClickOutsideDirective] }); }
-    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "17.3.12", ngImport: i0, type: NgxImageGalleryModule, imports: [CommonModule] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "18.2.13", ngImport: i0, type: NgxImageGalleryModule, imports: [CommonModule] }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.12", ngImport: i0, type: NgxImageGalleryModule, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.2.13", ngImport: i0, type: NgxImageGalleryModule, decorators: [{
             type: NgModule,
             args: [{
                     imports: [
