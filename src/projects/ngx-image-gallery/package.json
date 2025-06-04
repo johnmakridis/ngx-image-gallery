@@ -1,12 +1,12 @@
 {
   "name": "@johnmakridis/ngx-image-gallery",
-  "version": "9.0.0",
+  "version": "15.0.0",
   "dependencies": {
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^9.0.7",
-    "@angular/core": "^9.0.7",
+    "@angular/common": "^15.2.10",
+    "@angular/core": "^15.2.10",
     "hammerjs": "^2.0.8",
     "lodash": "^4.17.15"
   }
