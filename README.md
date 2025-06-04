@@ -1,15 +1,29 @@
-# This project is no longer maintained. Please consider other image galleries.
----
-
 # ngx-image-gallery
-Probably the best Angular 4+ modal and inline image gallery. Angular upgrade for ng-image-gallery.
+Angular modal and inline image gallery.
 
 ![preview](https://i.imgur.com/1gGxBLd.jpg)
 
-[![npm](https://img.shields.io/npm/dt/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![npm](https://img.shields.io/npm/v/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![David](https://img.shields.io/david/johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/ngx-image-gallery)
-[![preview](https://img.shields.io/badge/preview-click_here-green.svg?style=flat-square)](https://johnmakridis.github.io/ngx-image-gallery)
+[![npm](https://img.shields.io/npm/dt/@johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/@johnmakridis/ngx-image-gallery)
+[![npm](https://img.shields.io/npm/v/@johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/@johnmakridis/ngx-image-gallery)
+[![David](https://img.shields.io/david/johnmakridis/@johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/@johnmakridis/ngx-image-gallery)
+[![preview](https://img.shields.io/badge/preview-click_here-green.svg?style=flat-square)](https://johnmakridis.github.io/@johnmakridis/ngx-image-gallery)
+
+## Versions
+
+| Angular          | @johnmakridis/ngx-daterangepicker |
+|------------------|:---------:|
+| >=20.0.0 <21.0.0 |   v20.x   |
+| >=19.0.0 <20.0.0 |   v19.x   |
+| >=18.0.0 <19.0.0 |   v18.x   |
+| >=17.0.0 <18.0.0 |   v17.x   |
+| >=16.0.0 <17.0.0 |   v16.x   |
+| >=15.0.0 <16.0.0 |   v15.x   |
+| >=14.0.0 <15.0.0 |   v14.x   |
+| >=13.0.0 <14.0.0 |   v13.x   |
+| >=12.0.0 <13.0.0 |   v12.x   |
+| >=11.0.0 <12.0.0 |   v11.x   |
+| >=10.0.0 <11.0.0 |   v10.x   |
+| >=9.0.0 <10.0.0  |    v9.x   |
 
 ## Prerequisites
 
@@ -219,3 +233,8 @@ this.images = this.images.concat([...]);
 // change conf
 this.conf = {...};
 ```
+
+
+Notes
+-----
+* This package ports the original [ngx-image-gallery](https://github.com/web-aid-kit/ngx-image-gallery) by [Uday Hiwarale](https://github.com/thatisuday) for use in Angular. Angular 9 support starts with `Version 9.x` of this package
