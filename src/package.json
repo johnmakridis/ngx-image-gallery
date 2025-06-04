@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@johnmakridis/ngx-image-gallery",
-  "version": "20.0.0",
+  "version": "20.0.1",
   "scripts": {
     "build": "ng build ngx-image-gallery --configuration production",
     "publish": "cd ../dist/ngx-image-gallery && npm publish",
