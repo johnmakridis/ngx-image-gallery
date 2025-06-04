@@ -15,13 +15,13 @@
   "esm2020": "esm2020/johnmakridis-ngx-image-gallery.mjs",
   "fesm2020": "fesm2020/johnmakridis-ngx-image-gallery.mjs",
   "fesm2015": "fesm2015/johnmakridis-ngx-image-gallery.mjs",
-  "typings": "johnmakridis-ngx-image-gallery.d.ts",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./johnmakridis-ngx-image-gallery.d.ts",
+      "types": "./index.d.ts",
       "esm2020": "./esm2020/johnmakridis-ngx-image-gallery.mjs",
       "es2020": "./fesm2020/johnmakridis-ngx-image-gallery.mjs",
       "es2015": "./fesm2015/johnmakridis-ngx-image-gallery.mjs",

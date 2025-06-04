@@ -31,9 +31,9 @@ export class MouseWheelDirective {
         }
     }
 }
-MouseWheelDirective.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.4.0", ngImport: i0, type: MouseWheelDirective, deps: [], target: i0.ɵɵFactoryTarget.Directive });
-MouseWheelDirective.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "12.0.0", version: "13.4.0", type: MouseWheelDirective, selector: "[mouseWheel]", outputs: { mouseWheelUp: "mouseWheelUp", mouseWheelDown: "mouseWheelDown" }, host: { listeners: { "mousewheel": "onMouseWheelChrome($event)", "DOMMouseScroll": "onMouseWheelFirefox($event)", "onmousewheel": "onMouseWheelIE($event)" } }, ngImport: i0 });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.4.0", ngImport: i0, type: MouseWheelDirective, decorators: [{
+MouseWheelDirective.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: MouseWheelDirective, deps: [], target: i0.ɵɵFactoryTarget.Directive });
+MouseWheelDirective.ɵdir = i0.ɵɵngDeclareDirective({ minVersion: "14.0.0", version: "14.3.0", type: MouseWheelDirective, selector: "[mouseWheel]", outputs: { mouseWheelUp: "mouseWheelUp", mouseWheelDown: "mouseWheelDown" }, host: { listeners: { "mousewheel": "onMouseWheelChrome($event)", "DOMMouseScroll": "onMouseWheelFirefox($event)", "onmousewheel": "onMouseWheelIE($event)" } }, ngImport: i0 });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.3.0", ngImport: i0, type: MouseWheelDirective, decorators: [{
             type: Directive,
             args: [{ selector: '[mouseWheel]' }]
         }], propDecorators: { mouseWheelUp: [{

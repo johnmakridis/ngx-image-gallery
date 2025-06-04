@@ -8,5 +8,5 @@ export declare class MouseWheelDirective {
     onMouseWheelIE(event: any): void;
     mouseWheelFunc(event: any): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<MouseWheelDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<MouseWheelDirective, "[mouseWheel]", never, {}, { "mouseWheelUp": "mouseWheelUp"; "mouseWheelDown": "mouseWheelDown"; }, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<MouseWheelDirective, "[mouseWheel]", never, {}, { "mouseWheelUp": "mouseWheelUp"; "mouseWheelDown": "mouseWheelDown"; }, never, never, false>;
 }
