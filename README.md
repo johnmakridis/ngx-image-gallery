@@ -5,12 +5,11 @@ Angular modal and inline image gallery.
 
 [![npm](https://img.shields.io/npm/dt/@johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/@johnmakridis/ngx-image-gallery)
 [![npm](https://img.shields.io/npm/v/@johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/@johnmakridis/ngx-image-gallery)
-[![David](https://img.shields.io/david/johnmakridis/@johnmakridis/ngx-image-gallery.svg?style=flat-square)](https://www.npmjs.com/package/@johnmakridis/ngx-image-gallery)
-[![preview](https://img.shields.io/badge/preview-click_here-green.svg?style=flat-square)](https://johnmakridis.github.io/@johnmakridis/ngx-image-gallery)
+[![upd](https://img.shields.io/npm/last-update/%40johnmakridis%2Fngx-image-gallery)](https://www.npmjs.com/package/@johnmakridis/ngx-image-gallery)
 
 ## Versions
 
-| Angular          | @johnmakridis/ngx-daterangepicker |
+| Angular          | @johnmakridis/ngx-image-gallery |
 |------------------|:---------:|
 | >=20.0.0 <21.0.0 |   v20.x   |
 | >=19.0.0 <20.0.0 |   v19.x   |
