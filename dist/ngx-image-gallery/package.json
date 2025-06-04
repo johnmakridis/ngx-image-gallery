@@ -1,21 +1,21 @@
 {
   "name": "@johnmakridis/ngx-image-gallery",
   "version": "9.0.0",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",
     "hammerjs": "^2.0.8",
-    "lodash": "^4.17.15",
-    "tslib": "^1.10.0"
+    "lodash": "^4.17.15"
   },
-  "main": "bundles/ngx-image-gallery.umd.js",
-  "module": "fesm5/ngx-image-gallery.js",
-  "es2015": "fesm2015/ngx-image-gallery.js",
-  "esm5": "esm5/ngx-image-gallery.js",
-  "esm2015": "esm2015/ngx-image-gallery.js",
-  "fesm5": "fesm5/ngx-image-gallery.js",
-  "fesm2015": "fesm2015/ngx-image-gallery.js",
-  "typings": "ngx-image-gallery.d.ts",
-  "metadata": "ngx-image-gallery.metadata.json",
+  "main": "bundles/johnmakridis-ngx-image-gallery.umd.js",
+  "module": "fesm2015/johnmakridis-ngx-image-gallery.js",
+  "es2015": "fesm2015/johnmakridis-ngx-image-gallery.js",
+  "esm2015": "esm2015/johnmakridis-ngx-image-gallery.js",
+  "fesm2015": "fesm2015/johnmakridis-ngx-image-gallery.js",
+  "typings": "johnmakridis-ngx-image-gallery.d.ts",
+  "metadata": "johnmakridis-ngx-image-gallery.metadata.json",
   "sideEffects": false
 }
